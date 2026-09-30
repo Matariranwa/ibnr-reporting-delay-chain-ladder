@@ -1,0 +1,30 @@
+# Raw / confidential data
+data/
+*.xlsx
+*.xls
+*.csv
+
+# Allow only explicitly public-safe templates/docs
+!config/manual_repairs_template.csv
+
+# Private working outputs
+private/
+config/manual_repairs.csv
+outputs/*.xlsx
+outputs/*.csv
+outputs/*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
